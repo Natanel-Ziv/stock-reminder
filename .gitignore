@@ -1,5 +1,5 @@
-#env
-.env
+# assets
+assets/
 
 # eslint
 .eslintrc.json
@@ -111,3 +111,6 @@ dist/
 
 # VSCode
 .vscode/
+
+# no Images
+.png

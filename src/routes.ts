@@ -3,9 +3,9 @@ import express from 'express';
 const router = express.Router();
 
 export = (): express.Router => {
-    router.get('/', (req: express.Request, res: express.Response) => {
-        res.end('Stock Reminder Bot!');
-    });
+  router.get('/', (_req: express.Request, _res: express.Response) => {
+    _res.end('Stock Reminder');
+  });
 
-    return router;
-}
+  return router;
+};

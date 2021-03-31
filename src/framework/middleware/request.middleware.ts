@@ -1,9 +1,9 @@
-import { NextFunction, Request, Response } from 'express';
+import type {NextFunction, Request, Response} from 'express';
 
-function requestMiddleware(req: Request, res: Response, next: NextFunction): void {
-  console.log(`Request URL: ${req.url}\
-  \nRequest type: ${req.method}\
-  \nRequest param: ${req.body}`);
+function requestMiddleware (_req: Request, _res: Response, next: NextFunction): void {
+  console.log(`Request URL: ${_req.url}\
+  \nRequest type: ${_req.method}\
+  \nRequest param: ${JSON.stringify(_req.body)}`);
   next();
 }
 

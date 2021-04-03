@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "run-p lint:*",
     "lint:src": "eslint src --fix --ext .ts",
-    "build": "tsc",
+    "build": "tsc --build tsconfig.json",
     "prestart": "npm run build",
     "start": "node .",
     "predev": "npm run build",

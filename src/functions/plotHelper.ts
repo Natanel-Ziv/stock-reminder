@@ -79,6 +79,9 @@ export const createRecommendationImg = (recommendations: RecommendationTrends[])
       fileStream.on('finish', () => {
         resolve(true);
       });
+      fileStream.on('error', () => {
+        resolve(false);
+      });
     });
   });
 };

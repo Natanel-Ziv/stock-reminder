@@ -4,7 +4,7 @@ WORKDIR /stock-reminder
 
 COPY package.json /stock-reminder
 
-RUN cd /stock-reminder && npm install --only=production && npm build
+RUN cd /stock-reminder && npm install --only=production && npm run build
 
 COPY . .
 

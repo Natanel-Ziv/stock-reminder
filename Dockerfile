@@ -4,9 +4,11 @@ WORKDIR /stock-reminder
 
 COPY package.json /stock-reminder
 
-RUN cd /stock-reminder && npm -i --only=production
+RUN cd /stock-reminder && npm install --only=production
 
 COPY . .
 
-EXPOSE 3023
+RUN mkdir /config
+ENV NODE_ENV=production
+
 CMD ["sh", "-c", "node dist/server.js"]

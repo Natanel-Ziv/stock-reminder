@@ -1,6 +1,6 @@
+import type {CompanyProfile, Quote, RecommendationTrends} from '@stoqey/finnhub';
+import FinnhubAPI from '@stoqey/finnhub';
 import {FINNHUB_KEY} from '../framework/environment';
-import type {CompanyProfile, Quote, RecommendationTrends} from '../../../finnhub/dist';
-import FinnhubAPI from '../../../finnhub/dist';
 
 // For API
 // const finnhubAPI = new FinnhubAPI(SANDBOX_KEY);

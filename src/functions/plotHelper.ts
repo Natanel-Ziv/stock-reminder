@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as _ from 'lodash';
-import type {RecommendationTrends} from '../../../finnhub/dist';
+import type {RecommendationTrends} from '@stoqey/finnhub';
 import {PLOTLY_KEY, PLOTLY_USERNAME} from '../framework/environment';
 
 const plotly = require('plotly')(PLOTLY_USERNAME, PLOTLY_KEY);

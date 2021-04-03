@@ -6,7 +6,6 @@
   "scripts": {
     "lint": "run-p lint:*",
     "lint:src": "eslint src --fix --ext .ts",
-    "prebuild": "eslint --ignore-path .gitignore",
     "build": "tsc",
     "prestart": "npm run build",
     "start": "node .",

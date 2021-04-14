@@ -38,7 +38,7 @@
     "dotenv": "^8.2.0",
     "env-var": "^7.0.0",
     "eslint": "^7.24.0",
-    "eslint-config-noamokman": "^10.2.1",
+    "eslint-config-noamokman": "^10.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-lodash": "^7.2.0",
     "eslint-plugin-unicorn": "^29.0.0",

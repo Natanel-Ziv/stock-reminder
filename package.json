@@ -41,7 +41,7 @@
     "eslint-config-noamokman": "^10.3.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-lodash": "^7.2.0",
-    "eslint-plugin-unicorn": "^29.0.0",
+    "eslint-plugin-unicorn": "^32.0.1",
     "express": "^4.17.1",
     "express-json-error-handler": "^4.0.0",
     "npm-run-all": "^4.1.5"
